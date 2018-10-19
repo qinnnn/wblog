@@ -14,12 +14,9 @@ import com.seu.blog.vo.ArticleArchivesVo;
 import com.seu.blog.vo.TagPageVo;
 import com.seu.common.component.R;
 import com.seu.common.exception.RestException;
-import com.seu.common.utils.IPUtils;
 import com.seu.common.utils.ShiroUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -38,7 +35,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("/article")
 public class ArticleController {
-    private static Logger logger = LoggerFactory.getLogger(IPUtils.class);
     public static final int HOT_OR_NEW_ARTICLE_NUM = 6;
     public static final int ARTICLE_ARCHIVE_LIMIT_NUM = 8;
 

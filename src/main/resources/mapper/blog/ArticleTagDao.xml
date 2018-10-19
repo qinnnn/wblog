@@ -23,7 +23,7 @@
     </select>
 
     <select id="queryArticleTags" parameterType="Long" resultType="com.seu.blog.entity.TagEntity">
-        SELECT vt.* from wblog_article_tag vat INNER JOIN vblog_tag vt ON vat.tag_id=vt.id
+        SELECT vt.* from wblog_article_tag vat INNER JOIN wblog_tag vt ON vat.tag_id=vt.id
         where vat.article_id=#{articleId}
     </select>
 

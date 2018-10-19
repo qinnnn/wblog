@@ -1,4 +1,4 @@
-# vblog-api
+# wblog-api
 
 项目预览地址： https://blog.xiaoxinfq.com/
 
@@ -8,9 +8,9 @@
 - 由于工作中用过 vue+element-ui 做过管理系统，故而在今年六月份终于下决心搞一套自己的、基于当前最新技术栈、前后端分离的博客系统。
 
 #### 项目介绍
-- VBlog 是一款基于最新技术开发的多人在线、简洁的博客系统；
-- vblog-api是该博客系统的后端API接口服务；
-- 该博客系统的前端页面代码见https://gitee.com/seu-lfh/vblog-web.git。
+- wblog 是一款基于最新技术开发的多人在线、简洁的博客系统；
+- wblog-api是该博客系统的后端API接口服务；
+- 该博客系统的前端页面代码见https://gitee.com/seu-lfh/wblog-web.git。
 
 #### 技术架构
 - 采用SpringBoot2.0、MyBatis-Plus、Quartz、Shiro等框架
