@@ -3,8 +3,8 @@ package com.seu.common.constant;
 /**
  * 系统基础常量
  *
- * @author liangfeihu
- * @since 2018/7/4 15:47.
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55.
  */
 public class Base {
 

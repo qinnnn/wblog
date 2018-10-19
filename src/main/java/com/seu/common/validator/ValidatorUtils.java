@@ -12,9 +12,8 @@ import java.util.Set;
  * <p>
  * 参考文档：http://docs.jboss.org/hibernate/validator/5.4/reference/en-US/html_single/
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2017-03-15 10:50
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public class ValidatorUtils {
     private static Validator validator;

@@ -10,7 +10,8 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author liangfeihu on 2018/6/27.
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Service("captchaService")
 public class CaptchaServiceImpl {

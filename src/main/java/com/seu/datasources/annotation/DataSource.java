@@ -5,9 +5,8 @@ import java.lang.annotation.*;
 /**
  * 多数据源注解
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2017/9/16 22:16
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

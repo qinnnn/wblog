@@ -11,6 +11,8 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -20,13 +22,13 @@ import java.util.Set;
 /**
  * 认证
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2017-05-20 14:00
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Slf4j
 @Component
 public class OAuth2Realm extends AuthorizingRealm {
+    private Logger logger = LoggerFactory.getLogger(getClass());
     @Autowired
     private ShiroService shiroService;
 
@@ -76,7 +78,7 @@ public class OAuth2Realm extends AuthorizingRealm {
         }
 
         SimpleAuthenticationInfo info = new SimpleAuthenticationInfo(user, accessToken, getName());
-        log.info("[Oauth-Token登录]token={},account={}", accessToken, user.getAccount());
+        logger.info("[Oauth-Token登录]token={},account={}", accessToken, user.getAccount());
 
         return info;
     }

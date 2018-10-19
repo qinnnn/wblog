@@ -6,8 +6,8 @@ import java.util.HashMap;
 /**
  * Map工具类
  *
- * @author liangfeihu@163.com
- * @since 2.0.0
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public class MapUtils extends HashMap<String, Object> {
 

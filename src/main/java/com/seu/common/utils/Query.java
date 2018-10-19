@@ -10,8 +10,8 @@ import java.util.Map;
 /**
  * 查询参数
  *
- * @author liangfeihu@163.com
- * @since 2.0.0 2017-03-14
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public class Query<T> extends LinkedHashMap<String, Object> {
     private static final long serialVersionUID = 1L;

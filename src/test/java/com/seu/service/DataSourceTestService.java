@@ -26,8 +26,8 @@ import org.springframework.stereotype.Service;
 /**
  * 测试多数据源
  *
- * @author Mark liangfeihu@163.com
- * @since 3.1.0 2018-01-28
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Service
 public class DataSourceTestService {

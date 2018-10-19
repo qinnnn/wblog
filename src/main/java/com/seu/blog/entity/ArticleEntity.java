@@ -9,9 +9,8 @@ import java.util.Date;
 /**
  * 文章表
  *
- * @author liangfeihu
- * @email liangfhhd@163.com
- * @date 2018-07-04 15:00:55
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @TableName("wblog_article")
 public class ArticleEntity implements Serializable {

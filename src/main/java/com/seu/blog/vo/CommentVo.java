@@ -3,7 +3,8 @@ package com.seu.blog.vo;
 import com.seu.blog.entity.CommentEntity;
 
 /**
- * Created by liangfeihu on 2018/7/10.
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public class CommentVo extends CommentEntity {
 

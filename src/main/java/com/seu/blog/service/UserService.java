@@ -9,9 +9,8 @@ import java.util.Map;
 /**
  * 用户表
  *
- * @author liangfeihu
- * @email liangfhhd@163.com
- * @date 2018-07-04 15:00:54
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public interface UserService extends IService<UserEntity> {
 

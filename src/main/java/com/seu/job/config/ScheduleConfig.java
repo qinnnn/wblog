@@ -10,8 +10,8 @@ import java.util.Properties;
 /**
  * 定时任务配置
  *
- * @author Mark liangfeihu@163.com
- * @since 2.0.0 2017-04-20
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Configuration
 public class ScheduleConfig {

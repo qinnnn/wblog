@@ -9,9 +9,8 @@ import java.lang.annotation.Target;
 /**
  * 系统日志注解
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2018年3月8日 上午10:19:56
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

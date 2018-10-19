@@ -12,9 +12,8 @@ import java.util.Date;
 /**
  * 日期处理
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2016年12月21日 下午12:53:33
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public class DateUtils {
     /**

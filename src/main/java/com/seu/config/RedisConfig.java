@@ -10,9 +10,8 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 /**
  * Redis配置
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2017-07-70 19:22
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Configuration
 public class RedisConfig {

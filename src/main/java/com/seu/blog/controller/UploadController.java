@@ -21,8 +21,8 @@ import java.util.UUID;
 /**
  * 图片上传
  *
- * @author liangfeihu
- * @since 2018/7/10 18:19.
+ * @author qinnnn
+ * @since 2018/9/10 18:19.
  */
 @Slf4j
 @RestController

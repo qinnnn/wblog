@@ -3,9 +3,8 @@ package com.seu.common.constant;
 /**
  * 常量
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2016年11月15日 下午1:23:52
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public class Constant {
     /**
@@ -37,9 +36,8 @@ public class Constant {
     /**
      * 菜单类型
      *
-     * @author liangfeihu
-     * @email liangfeihu@163.com
-     * @date 2016年11月15日 下午1:24:29
+     * @author qinnnn
+     * @date 2018-09-04 15:00:55
      */
     public enum MenuType {
         /**
@@ -69,9 +67,8 @@ public class Constant {
     /**
      * 定时任务状态
      *
-     * @author liangfeihu
-     * @email liangfeihu@163.com
-     * @date 2016年12月3日 上午12:07:22
+     * @author qinnnn
+     * @date 2018-09-04 15:00:55
      */
     public enum ScheduleStatus {
         /**

@@ -11,7 +11,8 @@ import org.springframework.context.annotation.Import;
 
 
 /**
- * @author liangfeihu
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @Import({DynamicDataSourceConfig.class})

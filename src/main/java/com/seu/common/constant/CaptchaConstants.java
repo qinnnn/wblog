@@ -3,8 +3,8 @@ package com.seu.common.constant;
 /**
  * 验证码常量类
  *
- * @author liangfeihu
- * @since 2018/6/27 17:36.
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public class CaptchaConstants {
     public static final String  CAPTCHA_PREFIX = "wblog.captcha.";

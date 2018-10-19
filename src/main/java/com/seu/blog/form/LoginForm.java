@@ -3,8 +3,8 @@ package com.seu.blog.form;
 /**
  * 登录表单
  *
- * @author liangfeihu@163.com
- * @since 2018-01-25
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public class LoginForm {
     private String username;

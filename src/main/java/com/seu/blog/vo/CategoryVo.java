@@ -5,8 +5,8 @@ import com.seu.blog.entity.CategoryEntity;
 /**
  * 文章分类
  *
- * @author liangfeihu
- * @since 2018/7/7 14:57.
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public class CategoryVo extends CategoryEntity {
 

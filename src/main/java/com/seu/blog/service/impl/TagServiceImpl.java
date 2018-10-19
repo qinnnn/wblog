@@ -17,9 +17,8 @@ import java.util.Map;
 /**
  * 标签表
  *
- * @author liangfeihu
- * @email liangfhhd@163.com
- * @date 2018-07-04 15:00:54
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Service("tagService")
 public class TagServiceImpl extends ServiceImpl<TagDao, TagEntity> implements TagService {

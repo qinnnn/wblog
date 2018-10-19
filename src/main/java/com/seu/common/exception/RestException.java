@@ -3,9 +3,8 @@ package com.seu.common.exception;
 /**
  * 自定义异常
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2016年10月27日 下午10:11:27
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public class RestException extends RuntimeException {
     private static final long serialVersionUID = 1L;

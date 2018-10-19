@@ -23,9 +23,8 @@ import java.util.Date;
 /**
  * 系统日志，切面处理类
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2017年3月8日 上午11:07:35
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Aspect
 @Component

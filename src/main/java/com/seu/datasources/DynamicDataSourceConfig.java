@@ -13,9 +13,8 @@ import java.util.Map;
 /**
  * 配置多数据源
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2017/8/19 0:41
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Configuration
 public class DynamicDataSourceConfig {

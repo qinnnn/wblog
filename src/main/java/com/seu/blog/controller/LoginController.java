@@ -41,8 +41,8 @@ import java.util.Map;
 /**
  * 登录相关
  *
- * @author liangfeihu
- * @since 2018/7/4 16:32.
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Slf4j
 @RestController
@@ -198,8 +198,8 @@ public class LoginController {
     /**
      * 退出登录
      *
-     * @author liangfeihu
-     * @since 2018/7/1 15:30.
+     * @author qinnnn
+     * @date 2018-09-04 15:00:55
      */
     @RequestMapping(value = "/logout", method = RequestMethod.GET)
     public R logout() {

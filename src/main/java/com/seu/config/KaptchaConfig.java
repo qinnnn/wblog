@@ -11,9 +11,8 @@ import java.util.Properties;
 /**
  * 生成验证码配置
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2017-04-20 19:22
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @Configuration
 public class KaptchaConfig {

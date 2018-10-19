@@ -8,9 +8,8 @@ import java.util.List;
 /**
  * 分页工具类
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2016年11月4日 下午12:59:00
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 public class PageUtils implements Serializable {
     private static final long serialVersionUID = 1L;

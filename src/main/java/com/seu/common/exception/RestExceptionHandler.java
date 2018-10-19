@@ -12,9 +12,8 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 /**
  * 全局异常处理器
  *
- * @author liangfeihu
- * @email liangfeihu@163.com
- * @date 2016年10月27日 下午10:16:19
+ * @author qinnnn
+ * @date 2018-09-04 15:00:55
  */
 @RestControllerAdvice
 public class RestExceptionHandler {

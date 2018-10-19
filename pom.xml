@@ -7,7 +7,7 @@
     <version>SNAPSHOT</version>
     <packaging>jar</packaging>
     <!--<packaging>war</packaging>-->
-    <description>vlog-api</description>
+    <description>wblog-api</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
