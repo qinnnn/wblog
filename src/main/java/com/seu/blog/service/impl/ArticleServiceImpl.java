@@ -81,6 +81,7 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleDao, ArticleEntity> i
     public JSONArray getFormatArticleList(List<ArticleEntity> list) {
         JSONArray array = new JSONArray();
         for (ArticleEntity article :list) {
+            CategoryEntity categoryEntity=categoryService.selectById(article.getCategoryId());
             JSONObject object = new JSONObject();
             object.put("id", article.getId());
             object.put("nickname", article.getNickname());
@@ -91,6 +92,8 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleDao, ArticleEntity> i
             object.put("createTime", article.getCreateTime());
             object.put("viewNum", article.getViewNum());
             object.put("commentNum", article.getCommentNum());
+            object.put("categoryName", categoryEntity.getCategoryName());
+            object.put("categoryId", article.getCategoryId());
 
             array.add(object);
         }
